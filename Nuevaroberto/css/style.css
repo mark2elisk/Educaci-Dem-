@@ -10,7 +10,7 @@ body {
     padding: 10px 20px;
 }
 .navbar a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -26,14 +26,17 @@ body {
 .navbar input[type="text"] {
     padding: 5px;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
+    background-color: rgb(255, 81, 0);
+    border: 1px solid #000000; 
+    
 }
 .navbar button {
     padding: 5px 10px;
     margin-left: 5px;
     border: none;
     border-radius: 4px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 81, 0);
     color: rgb(0, 0, 0);
     font-weight: bold;
     cursor: pointer;
@@ -237,7 +240,7 @@ max-height: auto;
   .right-column {
     background-color: #ff4500;
     color: white;
-    width: 86%;
+    width: 114.5%;
    
   }
   
@@ -361,3 +364,12 @@ width: 40%;
 
   }
   
+  .left-column{
+
+    background-image: url(./istockphoto-1274428125-612x612.jpg); 
+    background-size: cover;
+    background-position: center; 
+    color: black; 
+    padding: 50px; 
+    text-align: center; 
+  }
